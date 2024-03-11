@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill your Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="collegeform.css">
+</head>
+<body>
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="collegeform.html">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="collegeform.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="collegeform.html">About Us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="collegeform.html">Gallery</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="collegeform.html">Courses</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#mycontact">Contact Us</a>
+              </li>
+             
+            
+            </ul>
+
+            <div class="mybutton">
+
+                <a href="collegeloginformFORM.html">Login/Register</a>
+            </div>
+           
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+       <div class="container">
+
+        <section id="myform">
+
+        <div class="row">
+
+           
+
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h2 style="font-weight: 900;">Sign up</h2>
+
+        
+
+
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4"  placeholder="enter your email" required>
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4" required>
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option value="">Select state</option>
+    <option value="AN">Andaman and Nicobar Islands</option>
+    <option value="AP">Andhra Pradesh</option>
+    <option value="AR">Arunachal Pradesh</option>
+    <option value="AS">Assam</option>
+    <option value="BR">Bihar</option>
+    <option value="CH">Chandigarh</option>
+    <option value="CT">Chhattisgarh</option>
+    <option value="DN">Dadra and Nagar Haveli</option>
+    <option value="DD">Daman and Diu</option>
+    <option value="DL">Delhi</option>
+    <option value="GA">Goa</option>
+    <option value="GJ">Gujarat</option>
+    <option value="HR">Haryana</option>
+    <option value="HP">Himachal Pradesh</option>
+    <option value="JK">Jammu and Kashmir</option>
+    <option value="JH">Jharkhand</option>
+    <option value="KA">Karnataka</option>
+    <option value="KL">Kerala</option>
+    <option value="LA">Ladakh</option>
+    <option value="LD">Lakshadweep</option>
+    <option value="MP">Madhya Pradesh</option>
+    <option value="MH">Maharashtra</option>
+    <option value="MN">Manipur</option>
+    <option value="ML">Meghalaya</option>
+    <option value="MZ">Mizoram</option>
+    <option value="NL">Nagaland</option>
+    <option value="OR">Odisha</option>
+    <option value="PY">Puducherry</option>
+    <option value="PB">Punjab</option>
+    <option value="RJ">Rajasthan</option>
+    <option value="SK">Sikkim</option>
+    <option value="TN">Tamil Nadu</option>
+    <option value="TG">Telangana</option>
+    <option value="TR">Tripura</option>
+    <option value="UP">Uttar Pradesh</option>
+    <option value="UT">Uttarakhand</option>
+    <option value="WB">West Bengal</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+
+            <!--  -->
+
+            <legend class="col-form-label col-sm-2 pt-0">GENDER</legend>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+        <label class="form-check-label" for="gridRadios1">
+         MALE
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+          FEMALE
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+          OTHER
+        </label>
+      </div>
+    </div>
+
+
+
+
+            <!--  -->
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign up</button>
+            </div>
+          </form>
+
+          </div>
+
+         
+
+          <div class="col-lg-6 col-md-6 col-sm-12">
+
+            <h2 style="font-weight: 900;">Sign In</h2>
+
+            <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4"  placeholder="enter your email" required>
+
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4" required><br>
+
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+
+          </div>
+        </div><br><br>
+
+        <div class="homeee text-center">
+
+            <button class="btn btn-warning"><a href="collegeform.html">Go Back</a></button>
+        </div>
+
+       
+    </div>
+
+  </section>
+
+
+  <section id="mycontact">
+
+    <h1 class="contacts mt-3 text-center text-dark">Contacts</h1>
+
+    <div class="row" id="mycontacts">
+
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+
+            <div class="contact1 text-white p-3">
+
+                <h2>Get In Touch</h2>
+
+                <p><i class="fa-solid fa-location-pin mx-3"></i>BITS Pilani, Pilani Campus, Vidya Vihar, Pilani 333031, Rajasthan, India</p>
+                <p><i class="fa-solid fa-envelope mx-3"></i>vdat2023@pilani.bits-pilani.ac.in</p>
+                <a href="tel:"><i class="fa-solid fa-phone mx-3"></i>+91-1596 - 2555322</a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+
+            <div class="contact1 text-white p-3 px-5">
+
+                <h2>Locate Us</h2>
+
+                <div class="map1">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.990705975542!2d75.58558351052775!3d28.359130596343764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39131964f43e4575%3A0x1fbad30854cf884d!2sBirla%20Institute%20of%20Technology%20And%20Science%E2%80%93Pilani%20(BITS%E2%80%93Pilani)!5e0!3m2!1sen!2sin!4v1709566519138!5m2!1sen!2sin" width="300" height="124" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+               
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+
+            <div class="contact1 text-white p-3">
+
+                <h2>Quick Links</h2>
+
+
+                <ul>
+                    <li class="link2 mt-2"><a href="collegeform.html">Home</a></li>
+                    <li class="link2 mt-2"><a href="collegeloginformFORM.html">Registration</a></li>
+                    <li class="link2 mt-2"><a href="collegeform.html">Gallery</a></li>
+                    <li class="link2 mt-2"><a href="collegeform.html">About Us</a></li>
+                </ul>
+
+               
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

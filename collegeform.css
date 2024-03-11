@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+   
+}
+
+.galleryimage{
+    /* width: 422px; */
+    height: 422px;
+}
+.galleryimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border-radius: 50%; */
+    /* clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); */
+}
+.feildimage{
+    /* width: 413px; */
+    height: 422px;
+}
+.feildimage img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.contact1{
+    background-color: #091e3e !important;
+    border-radius: 10px;
+}
+body{
+    background-color: #FFE3CA;
+}
+.block1 ul li a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+.block1 ul li a:hover{
+    color:orange;
+}
+
+.contact1 ul li a{
+    text-decoration: none;
+    color: yellow;
+}
+.contact1 ul li{
+    list-style: none;
+}
+#loc{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-color: #091e3e;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.nav-item a{
+    margin: 0px 15px;
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+   
+}
+.nav-item a:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s linear;
+   
+}
+.navbar-brand {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+.navbar-brand:hover{
+    color: white;
+    transition: 0.7s all;
+}
+.mybutton a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid green;
+    background-color: #0C359E;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+.mybutton a:hover{
+    background-color: #B5C0D0;
+    color: black;
+    transition: 0.5s ease-in-out;
+
+}
+.myimage
+{
+    height:90vh;
+}
+
+.myimage img
+{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+
+}
+#myabout{
+    margin-top: 50px;
+}
+#mygallery{
+    margin-top: 50px; 
+}
+#mycourses{
+    margin-top: 80px; 
+}
+#mycontact{
+    margin-top: 60px; 
+}
+.map1{
+    width: 100%;
+}
+#myform{
+    margin-top: 80px;
+}
